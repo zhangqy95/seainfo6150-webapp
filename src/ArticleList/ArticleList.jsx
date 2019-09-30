@@ -8,9 +8,7 @@ const ArticleList = props => {
     <ul>
       {props.articles.map(article => (
         <li key={article.slug}>
-        <p>title={article.title}</p>
-        <p>shortText={article.shortText}</p>
-        <p>pubDate={article.pubDate}</p>
+      
         <ArticleListItem article  = {article}/>
         </li>
       ))}
