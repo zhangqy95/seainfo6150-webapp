@@ -68,8 +68,8 @@ const Article = () => {
           <ul>  <li>Total overall height from the base of the pedestal foundation to the tip of the torch is <b>305 feet, 6 inches</b></li>
             <li>Height of the Statue from her heel to the top of her head is 111 feet, 6 inches</li>
             <li>The Statue has a <b>35-foot</b> waistline</li>
-            <li>Total weight of the Statue of Liberty is <b>225 tons (or 450,000 pounds)</b></li>
-          </ul>
+            <li>Total weight of the Statue of Liberty is <b>225 tons (or 450,000 pounds)</b></li></ul>
+
         </p>
       </body>
     </div>
