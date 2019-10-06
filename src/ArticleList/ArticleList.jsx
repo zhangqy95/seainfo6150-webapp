@@ -1,18 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ArticleListItem from './ArticleListItem';
-import SlugClick from './SlugClick';
+import slugButton from './SlugButton';
+import styles from "./ArticleList.module.css";
 
 const ArticleList = props => {
   return (
-    <ul>
+
+    <ul id={styles.container}>
       {props.articles.map(article => (
-        <li key={article.slug}>
-      
+        <li id={styles.item} key={article.slug}>
+
         <ArticleListItem article  = {article}/>
         </li>
       ))}
     </ul>
+
   );
 };
 

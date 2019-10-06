@@ -1,0 +1,19 @@
+#button {
+    float: right;
+    background:#CA2D0B	;
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#title {
+    color:#B22222;
+    font-size: 2rem;
+}
+
+
+#time {
+    font-weight: bold;
+    font-size: 0.7rem;
+}
