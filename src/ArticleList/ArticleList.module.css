@@ -3,6 +3,7 @@
   background-color: #989898;
   margin: 1rem;
   padding: 2rem;
+
 }
 #item {
   box-sizing: border-box;
@@ -11,4 +12,5 @@
   border: 0.15rem solid #CA2D0B;
   margin-top: 1rem;
   padding: 0 10px 10px 10px;
+  background-image: linear-gradient(to right, #CE5A5A, white 20%);
 }

@@ -10,10 +10,16 @@
 #title {
     color:#B22222;
     font-size: 2rem;
+    padding-left: 18rem;
 }
 
+#shortText{
+  font-size: 0.7rem;
+  padding-left: 18rem;
+}
 
 #time {
     font-weight: bold;
     font-size: 0.7rem;
+    padding-left: 5rem;
 }
