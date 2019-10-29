@@ -1,25 +1,25 @@
-#button {
-    float: right;
-    background:#CA2D0B	;
-    color: #FFFFFF;
-    font-size: 1rem;
-    margin-left: 1em;
-    margin-right: 1em;
+#tag{
+  display: flex;
+   position: relative;
+   height: 100%;
+   align-items: center;
 }
 
+
 #title {
+
     color:#B22222;
     font-size: 2rem;
-    padding-left: 18rem;
+    padding-left: 1rem;
 }
 
 #shortText{
   font-size: 0.7rem;
-  padding-left: 18rem;
+  padding-left: 1rem;
 }
 
 #time {
     font-weight: bold;
     font-size: 0.7rem;
-    padding-left: 5rem;
+    padding-left: 1rem;
 }
