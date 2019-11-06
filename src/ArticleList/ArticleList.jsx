@@ -7,7 +7,7 @@ import styles from "./ArticleList.module.css";
 const ArticleList = props => {
   return (
 
-    <ul id={styles.container}>
+    <ul className={styles.container}>
       {props.articles.map(article => (
         <li id={styles.item} key={article.slug}>
 
